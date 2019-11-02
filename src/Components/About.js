@@ -19,7 +19,7 @@ class About extends Component {
             <p>
               <a href={resumeDownload} className="button">
                 <i className="fa fa-download" />
-Download Resume
+                Download Resume
               </a>
             </p>
           </div>
@@ -49,7 +49,7 @@ Download Resume
                     {zip}
                     {' '}
                     {city}
-,
+                    ,
                   </span>
                   <br />
                   <span>{phone}</span>

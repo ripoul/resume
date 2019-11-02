@@ -39,7 +39,7 @@ class Contact extends Component {
 
                 <div>
                   <label htmlFor="contactName">
-Name
+                    Name
                     <span className="required">*</span>
                   </label>
                   <input type="text" defaultValue="" size="35" id="contactName" name="contactName" onChange={this.handleChange} />
@@ -47,42 +47,32 @@ Name
 
                 <div>
                   <label htmlFor="contactEmail">
-Email
+                    Email
                     <span className="required">*</span>
                   </label>
                   <input type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" onChange={this.handleChange} />
-/>
+                  />
                 </div>
 
                 <div>
                   <label htmlFor="contactSubject">Subject</label>
                   <input type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange} />
-/>
+                  />
                 </div>
 
                 <div>
                   <label htmlFor="contactMessage">
-Message
+                    Message
                     <span className="required">*</span>
                   </label>
                   <textarea cols="50" rows="15" id="contactMessage" name="contactMessage" />
                 </div>
 
                 <div>
-                  <button className="submit">Submit</button>
-                  <span id="image-loader">
-                    <img alt="" src="images/loader.gif" />
-                  </span>
+                  <button type="submit" className="submit">Submit</button>
                 </div>
               </fieldset>
             </form>
-
-            <div id="message-warning"> Error boy</div>
-            <div id="message-success">
-              <i className="fa fa-check" />
-Your message was sent, thank you!
-              <br />
-            </div>
           </div>
 
 
@@ -97,7 +87,7 @@ Your message was sent, thank you!
                 {' '}
                 <br />
                 {city}
-,
+                ,
                 {state}
                 {' '}
                 {zip}
