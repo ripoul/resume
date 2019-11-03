@@ -34,7 +34,7 @@ class Contact extends Component {
         <div className="row">
           <div className="eight columns">
 
-            <form method="post" id="contactForm" name="contactForm" netlify>
+            <form method="post" id="contactForm" name="contactForm" enctype="application/x-www-form-urlencoded" netlify>
               <fieldset>
 
                 <div>
