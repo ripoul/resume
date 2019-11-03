@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import NetlifyForm from 'react-netlify-form'
 
 class Contact extends Component {
   render() {
@@ -34,45 +35,60 @@ class Contact extends Component {
         <div className="row">
           <div className="eight columns">
 
-            <form method="post" id="contactForm" name="contactForm" enctype="application/x-www-form-urlencoded" netlify>
-              <fieldset>
-
+            <NetlifyForm name='Contact Form'>
+              {({ loading, error, success }) => (
                 <div>
-                  <label htmlFor="contactName">
-                    Name
-                    <span className="required">*</span>
-                  </label>
-                  <input type="text" defaultValue="" size="35" id="contactName" name="contactName" onChange={this.handleChange} />
-                </div>
+                  {loading &&
+                    <div>Loading...</div>
+                  }
+                  {error &&
+                    <div>Your information was not sent. Please try again later.</div>
+                  }
+                  {success &&
+                    <div>Thank you for contacting us!</div>
+                  }
+                  {!loading && !success &&
+                    <fieldset>
 
-                <div>
-                  <label htmlFor="contactEmail">
-                    Email
-                    <span className="required">*</span>
-                  </label>
-                  <input type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" onChange={this.handleChange} />
-                  />
-                </div>
+                      <div>
+                        <label htmlFor="contactName">
+                          Name
+                        <span className="required">*</span>
+                        </label>
+                        <input type="text" defaultValue="" size="35" id="contactName" name="contactName" onChange={this.handleChange} />
+                      </div>
 
-                <div>
-                  <label htmlFor="contactSubject">Subject</label>
-                  <input type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange} />
-                  />
-                </div>
+                      <div>
+                        <label htmlFor="contactEmail">
+                          Email
+                        <span className="required">*</span>
+                        </label>
+                        <input type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" onChange={this.handleChange} />
+                        />
+                    </div>
 
-                <div>
-                  <label htmlFor="contactMessage">
-                    Message
-                    <span className="required">*</span>
-                  </label>
-                  <textarea cols="50" rows="15" id="contactMessage" name="contactMessage" />
-                </div>
+                      <div>
+                        <label htmlFor="contactSubject">Subject</label>
+                        <input type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange} />
+                        />
+                    </div>
 
-                <div>
-                  <button type="submit" className="submit">Submit</button>
+                      <div>
+                        <label htmlFor="contactMessage">
+                          Message
+                        <span className="required">*</span>
+                        </label>
+                        <textarea cols="50" rows="15" id="contactMessage" name="contactMessage" />
+                      </div>
+
+                      <div>
+                        <button type="submit" className="submit">Submit</button>
+                      </div>
+                    </fieldset>
+                  }
                 </div>
-              </fieldset>
-            </form>
+              )}
+            </NetlifyForm>
           </div>
 
 
