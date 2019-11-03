@@ -41,13 +41,13 @@ export default {
         description: 'Management and IT skill developpement (cloud, project management, frameworks, good practice on developpement...)',
       },
       {
-        school: 'IUT NAntes',
+        school: 'IUT Nantes',
         degree: "Licence Pro MiAR (Métiers de l'informatique : Applications Réparties)",
         graduated: 'September 2017 - Aout 2018',
         description: 'Developement java, go, python, javascript...',
       },
       {
-        school: 'IUT NAntes',
+        school: 'IUT Nantes',
         degree: 'DUT Informatique',
         graduated: 'September 2015 - Aout 2017',
         description: 'Developement java, python, javascript...',
