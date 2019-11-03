@@ -1,7 +1,7 @@
 <h1 align="center">Welcome to ripoul.github.io 👋</h1>
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/85fbbc87-3bdd-4cf0-b0f2-14eef1379683/deploy-status)](https://app.netlify.com/sites/ripoul-resume/deploys)
-[![Build Status](https://travis-ci.org/ripoul/ripoul.github.io.svg?branch=master)](https://travis-ci.org/ripoul/ripoul.github.io)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ac7c5194-f6ed-4f8f-9d9a-c7496c08f9f0/deploy-status)](https://app.netlify.com/sites/cocky-spence-79ff5b/deploys)
+[![Build Status](https://travis-ci.org/ripoul/resume.svg?branch=master)](https://travis-ci.org/ripoul/resume)
 
 > My resume
 
