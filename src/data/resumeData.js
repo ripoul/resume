@@ -3,7 +3,7 @@ export default {
     name: 'Jules Le Bris',
     occupation: 'Full Stack Developper',
     description: 'Open-Source enthusiast, I spend my free time developing for me or the community',
-    bio: 'I am a motorcycle fan. Half of my time on the road and the other half looking for new things to learn or develop. I am always looking for new challenge. I love to attend conferences : thech and pizza are the only recipe for a perfect evening.',
+    bio: 'I am a motorcycle fan. Half of my time on the road and the other half looking for new things to learn or develop. I am always looking for new challenge. I love to attend conferences : tech and pizza are the only recipe for a perfect evening.',
     contactmessage: 'Contact me if you have an idee, a question, or any other thing you want to tell me.',
     email: 'jls.lebris@gmail.com',
     phone: '06 24 09 70 37',
