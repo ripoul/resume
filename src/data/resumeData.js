@@ -39,18 +39,21 @@ export default {
         degree: 'IT Master',
         graduated: 'September 2018 - Present',
         description: 'Management and IT skill developpement (cloud, project management, frameworks, good practice on developpement...)',
+        image: 'epsi.png'
       },
       {
         school: 'IUT Nantes',
         degree: "Licence Pro MiAR (Métiers de l'informatique : Applications Réparties)",
         graduated: 'September 2017 - Aout 2018',
         description: 'Developement java, go, python, javascript...',
+        image: 'iutNantes.jpeg'
       },
       {
         school: 'IUT Nantes',
         degree: 'DUT Informatique',
         graduated: 'September 2015 - Aout 2017',
         description: 'Developement java, python, javascript...',
+        image: 'iutNantes.jpeg'
       },
     ],
     work: [
@@ -59,12 +62,14 @@ export default {
         title: 'Dev-Ops Big Data',
         years: 'March 2019 - Present',
         description: 'Ansible, Gitlab, Jenkins. Automation of development process.',
+        image: 'sopra.png'
       },
       {
         company: 'Insynium',
         title: 'Full stack developer',
         years: 'April 2017 - February 2019',
         description: 'Setting up a BI platform with Superset and PostgreSQL',
+        image: 'insynium.png'
       },
     ],
     skills: [
