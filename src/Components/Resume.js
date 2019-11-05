@@ -25,7 +25,7 @@ class Resume extends Component {
       ));
       var work = this.props.data.work.map((work) => (
         <div className="row">
-          <div className="columns centered">
+          <div className="columns">
             <img
               className=""
               width="130px"
