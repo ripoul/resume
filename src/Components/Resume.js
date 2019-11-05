@@ -4,27 +4,44 @@ class Resume extends Component {
   render() {
     if (this.props.data) {
       var education = this.props.data.education.map((education) => (
-        <div key={education.school}>
-          <h3>{education.school}</h3>
-          <p className="info">
-            {education.degree}
-            {' '}
-            <span>&bull;</span>
-            <em className="date">{education.graduated}</em>
-          </p>
-          <p>{education.description}</p>
+        <div className="row">
+          <div className="columns">
+            <img
+              width="130px"
+              alt={education.school}
+              src={"images/resume/" + education.image} />
+          </div>
+          <div key={education.school} className="nine columns main-col">
+            <h3>{education.school}</h3>
+            <p className="info">
+              {education.degree}
+              {' '}
+              <span>&bull;</span>
+              <em className="date">{education.graduated}</em>
+            </p>
+            <p>{education.description}</p>
+          </div>
         </div>
       ));
       var work = this.props.data.work.map((work) => (
-        <div key={work.company}>
-          <h3>{work.company}</h3>
-          <p className="info">
-            {work.title}
-            <span>&bull;</span>
-            {' '}
-            <em className="date">{work.years}</em>
-          </p>
-          <p>{work.description}</p>
+        <div className="row">
+          <div className="columns">
+            <img
+              className=""
+              width="130px"
+              alt={work.company}
+              src={"images/resume/" + work.image} />
+          </div>
+          <div key={work.company} className="nine columns main-col">
+            <h3>{work.company}</h3>
+            <p className="info">
+              {work.title}
+              <span>&bull;</span>
+              {' '}
+              <em className="date">{work.years}</em>
+            </p>
+            <p>{work.description}</p>
+          </div>
         </div>
       ));
       var skills = this.props.data.skills.map((skills) => {
