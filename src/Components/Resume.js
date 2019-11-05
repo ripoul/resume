@@ -5,6 +5,12 @@ class Resume extends Component {
     if (this.props.data) {
       var education = this.props.data.education.map((education) => (
         <div className="row">
+          <div className="columns">
+            <img
+              width="130px"
+              alt={education.school}
+              src={"images/resume/" + education.image} />
+          </div>
           <div key={education.school} className="nine columns main-col">
             <h3>{education.school}</h3>
             <p className="info">
@@ -15,16 +21,17 @@ class Resume extends Component {
             </p>
             <p>{education.description}</p>
           </div>
-          <div className="columns">
-            <img
-              width="130px"
-              alt={education.school}
-              src={"images/resume/" + education.image} />
-          </div>
         </div>
       ));
       var work = this.props.data.work.map((work) => (
         <div className="row">
+          <div className="columns centered">
+            <img
+              className=""
+              width="130px"
+              alt={work.company}
+              src={"images/resume/" + work.image} />
+          </div>
           <div key={work.company} className="nine columns main-col">
             <h3>{work.company}</h3>
             <p className="info">
@@ -34,12 +41,6 @@ class Resume extends Component {
               <em className="date">{work.years}</em>
             </p>
             <p>{work.description}</p>
-          </div>
-          <div className="columns">
-            <img
-              width="130px"
-              alt={work.company}
-              src={"images/resume/" + work.image} />
           </div>
         </div>
       ));
