@@ -465,33 +465,30 @@ const IndexPage = () => (
               <div>
                 <div className="text-center">
                   <h3>Georide Road Trip <a href="https://georide.ripoul.fr/"><i class="fas fa-link"></i></a> <a href="https://github.com/ripoul/georide-position"><i class="fab fa-github"></i></a></h3>
-                  <img src={georide} style={{ maxHeight: "50%", maxWidth: "70%", display:"block", marginLeft:"auto", marginRight:"auto" }}></img>
+                  <img src={georide} style={{ maxHeight: "50%", maxWidth: "70%", display: "block", marginLeft: "auto", marginRight: "auto" }}></img>
                   <p>This is a project for sharing raod-trips for the users of the french GPS tracker Georide. I used <strong>django, PostgreSQL, georide API</strong> to create it.</p>
                 </div>
               </div>
               <div>
                 <div className="text-center">
                   <h3>Url-shortener <a href="https://url-shortener.ripoul.fr/"><i class="fas fa-link"></i></a> <a href="https://github.com/ripoul/url-shortener"><i class="fab fa-github"></i></a></h3>
-                  <img src={urlShortener} style={{ maxHeight: "50%", maxWidth: "70%", display:"block", marginLeft:"auto", marginRight:"auto" }}></img>
+                  <img src={urlShortener} style={{ maxHeight: "50%", maxWidth: "70%", display: "block", marginLeft: "auto", marginRight: "auto" }}></img>
                   <p>This is an interface to use my url shortener. I used <strong>Gatsby</strong> to create it.</p>
                 </div>
               </div>
               <div>
                 <div className="text-center">
                   <h3>Url-shortener-api <a href="https://url-shortener.api.ripoul.fr/"><i class="fas fa-link"></i></a> <a href="https://github.com/ripoul/url-shortener-api"><i class="fab fa-github"></i></a></h3>
-                  <img src={urlShortenerApi} style={{ maxHeight: "50%", maxWidth: "70%", display:"block", marginLeft:"auto", marginRight:"auto" }}></img>
+                  <img src={urlShortenerApi} style={{ maxHeight: "50%", maxWidth: "70%", display: "block", marginLeft: "auto", marginRight: "auto" }}></img>
                   <p>This is an api to create short url with many different providers. I used <strong>Django</strong> to create it.</p>
                 </div>
               </div>
               <div>
                 <div className="text-center">
                   <h3>This website <a href="https://ripoul.fr/"><i class="fas fa-link"></i></a> <a href="https://github.com/ripoul/resume"><i class="fab fa-github"></i></a></h3>
-                  <img src={resume} style={{ maxHeight: "50%", maxWidth: "70%", display:"block", marginLeft:"auto", marginRight:"auto" }}></img>
+                  <img src={resume} style={{ maxHeight: "50%", maxWidth: "70%", display: "block", marginLeft: "auto", marginRight: "auto" }}></img>
                   <p>I used <strong>Gatsby</strong> to create it.</p>
                 </div>
-              </div>
-              <div>
-                <h3>5</h3>
               </div>
             </Slider>
           </div>

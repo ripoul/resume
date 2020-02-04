@@ -21,6 +21,16 @@ module.exports = {
         icon: config.manifestIcon, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: 'gatsby-plugin-page-progress',
+      options: {
+        includePaths: ['/',],
+        excludePaths: [],
+        height: 3,
+        prependToBody: false,
+        color: `#663399`,
+      }
+    },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
   ],
