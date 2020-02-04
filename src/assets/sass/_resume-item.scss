@@ -3,11 +3,14 @@ section.resume-section {
   padding-bottom: 5rem !important;
   max-width: 75rem;
   .resume-item {
-    .resume-content {}
     .resume-date {
       min-width: none;
     }
   }
+}
+
+.slick-prev:before, .slick-next:before {
+  color: grey !important;
 }
 
 @media (min-width: 768px) {

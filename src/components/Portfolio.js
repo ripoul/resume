@@ -21,7 +21,7 @@ export class Portfolio extends Component {
   render() {
     return (
       <section
-        className="resume-section p-3 p-lg-5 d-flex align-items-center"
+        className="resume-section p-3 p-lg-5 align-items-center"
         id="portfolio"
       >
         <div className="w-100">
@@ -53,8 +53,8 @@ export class Portfolio extends Component {
               <div>
                 <div className="text-center">
                   <h3>Url-shortener-api <a href="https://url-shortener.api.ripoul.fr/"><i class="fas fa-link"></i></a> <a href="https://github.com/ripoul/url-shortener-api"><i class="fab fa-github"></i></a></h3>
-                  <img 
-                    src={urlShortenerApi} 
+                  <img
+                    src={urlShortenerApi}
                     style={{ maxHeight: "50%", maxWidth: "70%", display: "block", marginLeft: "auto", marginRight: "auto" }}
                     alt="Url-shortener-api project example"
                   ></img>
@@ -64,8 +64,8 @@ export class Portfolio extends Component {
               <div>
                 <div className="text-center">
                   <h3>This website <a href="https://ripoul.fr/"><i class="fas fa-link"></i></a> <a href="https://github.com/ripoul/resume"><i class="fab fa-github"></i></a></h3>
-                  <img 
-                    src={resume} 
+                  <img
+                    src={resume}
                     style={{ maxHeight: "50%", maxWidth: "70%", display: "block", marginLeft: "auto", marginRight: "auto" }}
                     alt="Resume project example"
                   ></img>
