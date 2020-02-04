@@ -78,7 +78,7 @@ const IndexPage = () => (
         <div className="w-100">
           <h2 className="mb-5">Experience</h2>
 
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div className="resume-item d-flex flex-column flex-md-row mb-5">
             <div className="p-3">
               <img
                 src={sopra}
@@ -93,7 +93,7 @@ const IndexPage = () => (
                 Ansible, Gitlab, Jenkins. Automation of development process.
               </p>
             </div>
-            <div className="resume-date text-md-right">
+            <div className="resume-date text-md-right ml-auto">
               <span className="text-primary">March 2019 - Present</span>
             </div>
           </div>
@@ -113,7 +113,7 @@ const IndexPage = () => (
                 Setting up a BI platform with Superset and PostgreSQL
               </p>
             </div>
-            <div className="resume-date text-md-right">
+            <div className="resume-date text-md-right ml-auto">
               <span className="text-primary">April 2017 - February 2019</span>
             </div>
           </div>
@@ -129,7 +129,7 @@ const IndexPage = () => (
         <div className="w-100">
           <h2 className="mb-5">Education</h2>
 
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div className="resume-item d-flex flex-column flex-md-row mb-5">
             <div className="p-3">
               <img
                 src={epsi}
@@ -142,12 +142,12 @@ const IndexPage = () => (
               <div className="subheading mb-3">IT Master</div>
               <p>Management and IT skill developpement (cloud, project management, frameworks, good practice on developpement...)</p>
             </div>
-            <div className="resume-date text-md-right">
+            <div className="resume-date text-md-right ml-auto">
               <span className="text-primary">September 2018 - Present</span>
             </div>
           </div>
 
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div className="resume-item d-flex flex-column flex-md-row mb-5">
             <div className="p-3">
               <img
                 src={iutNantes}
@@ -160,12 +160,12 @@ const IndexPage = () => (
               <div className="subheading mb-3">Licence Pro MiAR (Métiers de l'informatique : Applications Réparties)</div>
               <p>Developement java, go, python, javascript...</p>
             </div>
-            <div className="resume-date text-md-right">
+            <div className="resume-date text-md-right ml-auto">
               <span className="text-primary">September 2017 - Aout 2018</span>
             </div>
           </div>
 
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div className="resume-item d-flex flex-column flex-md-row mb-5">
             <div className="p-3">
               <img
                 src={iutNantes}
@@ -178,7 +178,7 @@ const IndexPage = () => (
               <div className="subheading mb-3">DUT Informatique</div>
               <p>Developement java, go, python, javascript and some algebra</p>
             </div>
-            <div className="resume-date text-md-right">
+            <div className="resume-date text-md-right ml-auto">
               <span className="text-primary">September 2015 - Aout 2017</span>
             </div>
           </div>
