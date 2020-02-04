@@ -4,6 +4,8 @@ import { CircularProgressbarWithChildren, buildStyles } from 'react-circular-pro
 import 'react-circular-progressbar/dist/styles.css';
 import VisibilitySensor from "react-visibility-sensor";
 
+import ReactTooltip from 'react-tooltip'
+
 const progressbarStyle = buildStyles({
   pathColor: "#6f42c1"
 })
@@ -32,7 +34,7 @@ export class Skills extends Component {
                         value={percentage}
                         styles={progressbarStyle}
                       >
-                        <i className="fab fa-html5"></i>
+                        <i data-tip="HTML" className="fab fa-html5"></i>
                       </CircularProgressbarWithChildren>
                     );
                   }}
@@ -49,7 +51,7 @@ export class Skills extends Component {
                         value={percentage}
                         styles={progressbarStyle}
                       >
-                        <i className="fab fa-css3-alt"></i>
+                        <i data-tip="CSS" className="fab fa-css3-alt"></i>
                       </CircularProgressbarWithChildren>
                     );
                   }}
@@ -66,7 +68,7 @@ export class Skills extends Component {
                         value={percentage}
                         styles={progressbarStyle}
                       >
-                        <i className="fab fa-js-square"></i>
+                        <i data-tip="JavaSript" className="fab fa-js-square"></i>
                       </CircularProgressbarWithChildren>
                     );
                   }}
@@ -83,7 +85,7 @@ export class Skills extends Component {
                         value={percentage}
                         styles={progressbarStyle}
                       >
-                        <i className="fab fa-python"></i>
+                        <i data-tip="Python" className="fab fa-python"></i>
                       </CircularProgressbarWithChildren>
                     );
                   }}
@@ -100,7 +102,7 @@ export class Skills extends Component {
                         value={percentage}
                         styles={progressbarStyle}
                       >
-                        <i className="fab fa-java"></i>
+                        <i data-tip="Java" className="fab fa-java"></i>
                       </CircularProgressbarWithChildren>
                     );
                   }}
@@ -123,7 +125,7 @@ export class Skills extends Component {
                         value={percentage}
                         styles={progressbarStyle}
                       >
-                        <i className="fab fa-react"></i>
+                        <i data-tip="reactJS" className="fab fa-react"></i>
                       </CircularProgressbarWithChildren>
                     );
                   }}
@@ -140,7 +142,7 @@ export class Skills extends Component {
                         value={percentage}
                         styles={progressbarStyle}
                       >
-                        <i className="fab fa-node-js"></i>
+                        <i data-tip="nodeJS" className="fab fa-node-js"></i>
                       </CircularProgressbarWithChildren>
                     );
                   }}
@@ -157,7 +159,7 @@ export class Skills extends Component {
                         value={percentage}
                         styles={progressbarStyle}
                       >
-                        <strong>Gatsby</strong>
+                        <strong data-tip="Gatsby">Gatsby</strong>
                       </CircularProgressbarWithChildren>
                     );
                   }}
@@ -174,7 +176,7 @@ export class Skills extends Component {
                         value={percentage}
                         styles={progressbarStyle}
                       >
-                        <i className="fab fa-vuejs"></i>
+                        <i data-tip="vueJS" className="fab fa-vuejs"></i>
                       </CircularProgressbarWithChildren>
                     );
                   }}
@@ -191,7 +193,7 @@ export class Skills extends Component {
                         value={percentage}
                         styles={progressbarStyle}
                       >
-                        <strong>Django</strong>
+                        <strong data-tip="Django">Django</strong>
                       </CircularProgressbarWithChildren>
                     );
                   }}
@@ -208,7 +210,7 @@ export class Skills extends Component {
                         value={percentage}
                         styles={progressbarStyle}
                       >
-                        <strong>Flask</strong>
+                        <strong data-tip="Flask">Flask</strong>
                       </CircularProgressbarWithChildren>
                     );
                   }}
@@ -231,7 +233,7 @@ export class Skills extends Component {
                         value={percentage}
                         styles={progressbarStyle}
                       >
-                        <strong style={{ fontSize: "0.75rem" }}>PostgreSQL</strong>
+                        <strong data-tip="PostgreSQL" style={{ fontSize: "0.75rem" }}>PostgreSQL</strong>
                       </CircularProgressbarWithChildren>
                     );
                   }}
@@ -248,7 +250,7 @@ export class Skills extends Component {
                         value={percentage}
                         styles={progressbarStyle}
                       >
-                        <i className="fab fa-git-alt"></i>
+                        <i data-tip="git" className="fab fa-git-alt"></i>
                       </CircularProgressbarWithChildren>
                     );
                   }}
@@ -259,13 +261,13 @@ export class Skills extends Component {
               <div style={{ width: "100px" }}>
                 <VisibilitySensor>
                   {({ isVisible }) => {
-                    const percentage = isVisible ? 70 : 0;
+                    const percentage = isVisible ? 55 : 0;
                     return (
                       <CircularProgressbarWithChildren
                         value={percentage}
                         styles={progressbarStyle}
                       >
-                        <strong style={{ fontSize: "0.75rem" }}>Android<br />Studio</strong>
+                        <strong data-tip="Android Studio" style={{ fontSize: "0.75rem" }}>Android<br />Studio</strong>
                       </CircularProgressbarWithChildren>
                     );
                   }}
@@ -274,6 +276,7 @@ export class Skills extends Component {
             </li>
           </ul>
         </div>
+        <ReactTooltip />
       </section>
     );
   }
