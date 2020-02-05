@@ -119,7 +119,7 @@ export class Skills extends Component {
               <div style={{ width: "100px" }}>
                 <VisibilitySensor>
                   {({ isVisible }) => {
-                    const percentage = isVisible ? 70 : 0;
+                    const percentage = isVisible ? 60 : 0;
                     return (
                       <CircularProgressbarWithChildren
                         value={percentage}
@@ -153,7 +153,7 @@ export class Skills extends Component {
               <div style={{ width: "100px" }}>
                 <VisibilitySensor>
                   {({ isVisible }) => {
-                    const percentage = isVisible ? 75 : 0;
+                    const percentage = isVisible ? 60 : 0;
                     return (
                       <CircularProgressbarWithChildren
                         value={percentage}
@@ -170,7 +170,7 @@ export class Skills extends Component {
               <div style={{ width: "100px" }}>
                 <VisibilitySensor>
                   {({ isVisible }) => {
-                    const percentage = isVisible ? 75 : 0;
+                    const percentage = isVisible ? 60 : 0;
                     return (
                       <CircularProgressbarWithChildren
                         value={percentage}
@@ -187,7 +187,7 @@ export class Skills extends Component {
               <div style={{ width: "100px" }}>
                 <VisibilitySensor>
                   {({ isVisible }) => {
-                    const percentage = isVisible ? 85 : 0;
+                    const percentage = isVisible ? 90 : 0;
                     return (
                       <CircularProgressbarWithChildren
                         value={percentage}
