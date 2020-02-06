@@ -24,7 +24,7 @@ export class Education extends Component {
             <div className="resume-content">
               <h3 className="mb-0">EPSI Nantes</h3>
               <div className="subheading mb-3">IT Master</div>
-              <p>Management and IT skill developpement (cloud, project management, frameworks, good practice on developpement...)</p>
+              <p>Management and IT skill development (cloud, project management, frameworks, good practice on development...)</p>
             </div>
             <div className="resume-date text-md-right ml-auto">
               <span className="text-primary">September 2018 - Present</span>
@@ -42,10 +42,10 @@ export class Education extends Component {
             <div className="resume-content">
               <h3 className="mb-0">IUT Nantes</h3>
               <div className="subheading mb-3">Licence Pro MiAR (Métiers de l'informatique : Applications Réparties)</div>
-              <p>Developement java, go, python, javascript...</p>
+              <p>development java, go, python, javascript...</p>
             </div>
             <div className="resume-date text-md-right ml-auto">
-              <span className="text-primary">September 2017 - Aout 2018</span>
+              <span className="text-primary">September 2017 - August 2018</span>
             </div>
           </div>
 
@@ -60,10 +60,10 @@ export class Education extends Component {
             <div className="resume-content">
               <h3 className="mb-0">IUT Nantes</h3>
               <div className="subheading mb-3">DUT Informatique</div>
-              <p>Developement java, go, python, javascript and some algebra</p>
+              <p>development java, go, python, javascript and some algebra</p>
             </div>
             <div className="resume-date text-md-right ml-auto">
-              <span className="text-primary">September 2015 - Aout 2017</span>
+              <span className="text-primary">September 2015 - August 2017</span>
             </div>
           </div>
         </div>
