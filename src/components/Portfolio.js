@@ -30,7 +30,7 @@ export class Portfolio extends Component {
             <Slider {...slidderSettings}>
               <div>
                 <div className="text-center">
-                  <h3>Georide Road Trip <a href="https://georide.ripoul.fr/"><i class="fas fa-link"></i></a> <a href="https://github.com/ripoul/georide-position"><i class="fab fa-github"></i></a></h3>
+                  <h3>Georide Road Trip <a target="_blank" href="https://georide.ripoul.fr/"><i class="fas fa-link"></i></a> <a href="https://github.com/ripoul/georide-position"><i class="fab fa-github"></i></a></h3>
                   <img
                     src={georide}
                     style={{ maxHeight: "50%", maxWidth: "70%", display: "block", marginLeft: "auto", marginRight: "auto" }}
@@ -41,7 +41,7 @@ export class Portfolio extends Component {
               </div>
               <div>
                 <div className="text-center">
-                  <h3>Url-shortener <a href="https://url-shortener.ripoul.fr/"><i class="fas fa-link"></i></a> <a href="https://github.com/ripoul/url-shortener"><i class="fab fa-github"></i></a></h3>
+                  <h3>Url-shortener <a target="_blank" href="https://url-shortener.ripoul.fr/"><i class="fas fa-link"></i></a> <a href="https://github.com/ripoul/url-shortener"><i class="fab fa-github"></i></a></h3>
                   <img
                     src={urlShortener}
                     style={{ maxHeight: "50%", maxWidth: "70%", display: "block", marginLeft: "auto", marginRight: "auto" }}
@@ -52,7 +52,7 @@ export class Portfolio extends Component {
               </div>
               <div>
                 <div className="text-center">
-                  <h3>Url-shortener-api <a href="https://url-shortener.api.ripoul.fr/"><i class="fas fa-link"></i></a> <a href="https://github.com/ripoul/url-shortener-api"><i class="fab fa-github"></i></a></h3>
+                  <h3>Url-shortener-api <a target="_blank" href="https://url-shortener.api.ripoul.fr/"><i class="fas fa-link"></i></a> <a href="https://github.com/ripoul/url-shortener-api"><i class="fab fa-github"></i></a></h3>
                   <img
                     src={urlShortenerApi}
                     style={{ maxHeight: "50%", maxWidth: "70%", display: "block", marginLeft: "auto", marginRight: "auto" }}
@@ -63,7 +63,7 @@ export class Portfolio extends Component {
               </div>
               <div>
                 <div className="text-center">
-                  <h3>This website <a href="https://ripoul.fr/"><i class="fas fa-link"></i></a> <a href="https://github.com/ripoul/resume"><i class="fab fa-github"></i></a></h3>
+                  <h3>This website <a target="_blank" href="https://ripoul.fr/"><i class="fas fa-link"></i></a> <a href="https://github.com/ripoul/resume"><i class="fab fa-github"></i></a></h3>
                   <img
                     src={resume}
                     style={{ maxHeight: "50%", maxWidth: "70%", display: "block", marginLeft: "auto", marginRight: "auto" }}
