@@ -13,7 +13,7 @@ export class Education extends Component {
         <div className="w-100">
           <h2 className="mb-5">Education</h2>
 
-          <div className="resume-item d-flex flex-column flex-md-row mb-5">
+          <div className="resume-item d-flex flex-column flex-md-row mb-5 align-items-center">
             <div className="p-3">
               <img
                 src={epsi}
@@ -31,7 +31,7 @@ export class Education extends Component {
             </div>
           </div>
 
-          <div className="resume-item d-flex flex-column flex-md-row mb-5">
+          <div className="resume-item d-flex flex-column flex-md-row mb-5 align-items-center">
             <div className="p-3">
               <img
                 src={iutNantes}
@@ -49,7 +49,7 @@ export class Education extends Component {
             </div>
           </div>
 
-          <div className="resume-item d-flex flex-column flex-md-row mb-5">
+          <div className="resume-item d-flex flex-column flex-md-row mb-5 align-items-center">
             <div className="p-3">
               <img
                 src={iutNantes}

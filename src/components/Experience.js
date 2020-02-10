@@ -13,7 +13,7 @@ export class Experience extends Component {
         <div className="w-100">
           <h2 className="mb-5">Experience</h2>
 
-          <div className="resume-item d-flex flex-column flex-md-row mb-5">
+          <div className="resume-item d-flex flex-column flex-md-row mb-5 align-items-center">
             <div className="p-3">
               <img
                 src={sopra}
@@ -33,7 +33,7 @@ export class Experience extends Component {
             </div>
           </div>
 
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div className="resume-item d-flex flex-column flex-md-row mb-5 align-items-center justify-content-between">
             <div className="p-3">
               <img
                 src={insynium}
