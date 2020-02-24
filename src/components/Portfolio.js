@@ -8,6 +8,7 @@ import georide from '../assets/img/portfolio/georide-road-trip.png'
 import urlShortener from '../assets/img/portfolio/url-shortener.png'
 import urlShortenerApi from '../assets/img/portfolio/url-shortener-api.png'
 import resume from '../assets/img/portfolio/resume.png'
+import robot from '../assets/img/portfolio/robot.jpg'
 
 const slidderSettings = {
   dots: true,
@@ -59,6 +60,17 @@ export class Portfolio extends Component {
                     alt="Url-shortener-api project example"
                   ></img>
                   <p>This is an api to create short url with many different providers. I used <strong>Django</strong> to create it.</p>
+                </div>
+              </div>
+              <div>
+                <div className="text-center">
+                  <h3>Robot-Sumo <a target="_blank" href="https://github.com/ripoul/sumo-robot/"><i class="fab fa-github"></i></a></h3>
+                  <img
+                    src={robot}
+                    style={{ maxHeight: "10%", maxWidth: "50%", display: "block", marginLeft: "auto", marginRight: "auto" }}
+                    alt="Resume project example"
+                  ></img>
+                  <p>A project to make some epic fight ! I used <strong>Arduino</strong> and <strong>android studio</strong> to make it.</p>
                 </div>
               </div>
               <div>
