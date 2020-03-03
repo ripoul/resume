@@ -14,7 +14,7 @@
     "gatsby": "^2.4.3",
     "gatsby-plugin-cname": "^1.0.0",
     "gatsby-plugin-manifest": "^2.1.1",
-    "gatsby-plugin-offline": "^3.0.34",
+    "gatsby-plugin-offline": "^2.2.10",
     "gatsby-plugin-page-progress": "^2.0.14",
     "gatsby-plugin-react-helmet": "^3.0.12",
     "gatsby-plugin-sass": "^2.0.11",
@@ -23,10 +23,10 @@
     "react-circular-progressbar": "^2.0.3",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
-    "react-images": "^1.0.0",
+    "react-images": "^0.5.19",
     "react-scrollspy": "^3.4.0",
     "react-slick": "^0.25.2",
-    "react-tooltip": "^4.0.3",
+    "react-tooltip": "^3.11.6",
     "react-visibility-sensor": "^5.1.1",
     "slick-carousel": "^1.8.1",
     "smoothscroll-polyfill": "^0.4.4"
@@ -43,7 +43,7 @@
   "devDependencies": {
     "gh-pages": "^2.0.1",
     "prettier": "^1.17.0",
-    "rimraf": "^3.0.2"
+    "rimraf": "^2.7.1"
   },
   "keywords": [
     "gatsby",
