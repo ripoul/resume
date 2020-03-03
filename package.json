@@ -26,7 +26,7 @@
     "react-images": "^0.5.19",
     "react-scrollspy": "^3.4.0",
     "react-slick": "^0.25.2",
-    "react-tooltip": "^3.11.6",
+    "react-tooltip": "^4.0.3",
     "react-visibility-sensor": "^5.1.1",
     "slick-carousel": "^1.8.1",
     "smoothscroll-polyfill": "^0.4.4"
