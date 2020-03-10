@@ -1,14 +1,8 @@
 import React, { Component } from 'react';
 
-import { CircularProgressbarWithChildren, buildStyles } from 'react-circular-progressbar';
-import 'react-circular-progressbar/dist/styles.css';
-import VisibilitySensor from "react-visibility-sensor";
-
 import ReactTooltip from 'react-tooltip'
 
-const progressbarStyle = buildStyles({
-  pathColor: "#6f42c1"
-})
+import SkillItem from './SkillItem'
 
 export class Skills extends Component {
   render() {
@@ -25,89 +19,30 @@ export class Skills extends Component {
           </div>
           <ul className="list-inline dev-icons">
             <li className="list-inline-item">
-              <div style={{ width: "100px" }}>
-                <VisibilitySensor>
-                  {({ isVisible }) => {
-                    const percentage = isVisible ? 70 : 0;
-                    return (
-                      <CircularProgressbarWithChildren
-                        value={percentage}
-                        styles={progressbarStyle}
-                      >
-                        <i data-tip="HTML" className="fab fa-html5"></i>
-                      </CircularProgressbarWithChildren>
-                    );
-                  }}
-                </VisibilitySensor>
-              </div>
+              <SkillItem value="70">
+                <i data-tip="HTML" className="fab fa-html5"></i>
+              </SkillItem>
+
             </li>
             <li className="list-inline-item">
-              <div style={{ width: "100px" }}>
-                <VisibilitySensor>
-                  {({ isVisible }) => {
-                    const percentage = isVisible ? 70 : 0;
-                    return (
-                      <CircularProgressbarWithChildren
-                        value={percentage}
-                        styles={progressbarStyle}
-                      >
-                        <i data-tip="CSS" className="fab fa-css3-alt"></i>
-                      </CircularProgressbarWithChildren>
-                    );
-                  }}
-                </VisibilitySensor>
-              </div>
+              <SkillItem value="70">
+                <i data-tip="CSS" className="fab fa-css3-alt"></i>
+              </SkillItem>
             </li>
             <li className="list-inline-item">
-              <div style={{ width: "100px" }}>
-                <VisibilitySensor>
-                  {({ isVisible }) => {
-                    const percentage = isVisible ? 80 : 0;
-                    return (
-                      <CircularProgressbarWithChildren
-                        value={percentage}
-                        styles={progressbarStyle}
-                      >
-                        <i data-tip="JavaSript" className="fab fa-js-square"></i>
-                      </CircularProgressbarWithChildren>
-                    );
-                  }}
-                </VisibilitySensor>
-              </div>
+              <SkillItem value="80">
+                <i data-tip="JavaSript" className="fab fa-js-square"></i>
+              </SkillItem>
             </li>
             <li className="list-inline-item">
-              <div style={{ width: "100px" }}>
-                <VisibilitySensor>
-                  {({ isVisible }) => {
-                    const percentage = isVisible ? 90 : 0;
-                    return (
-                      <CircularProgressbarWithChildren
-                        value={percentage}
-                        styles={progressbarStyle}
-                      >
-                        <i data-tip="Python" className="fab fa-python"></i>
-                      </CircularProgressbarWithChildren>
-                    );
-                  }}
-                </VisibilitySensor>
-              </div>
+              <SkillItem value="90">
+                <i data-tip="Python" className="fab fa-python"></i>
+              </SkillItem>
             </li>
             <li className="list-inline-item">
-              <div style={{ width: "100px" }}>
-                <VisibilitySensor>
-                  {({ isVisible }) => {
-                    const percentage = isVisible ? 75 : 0;
-                    return (
-                      <CircularProgressbarWithChildren
-                        value={percentage}
-                        styles={progressbarStyle}
-                      >
-                        <i data-tip="Java" className="fab fa-java"></i>
-                      </CircularProgressbarWithChildren>
-                    );
-                  }}
-                </VisibilitySensor>
-              </div>
+              <SkillItem value="75">
+                <i data-tip="Java" className="fab fa-java"></i>
+              </SkillItem>
             </li>
           </ul>
 
@@ -116,106 +51,34 @@ export class Skills extends Component {
           </div>
           <ul className="list-inline dev-icons">
             <li className="list-inline-item">
-              <div style={{ width: "100px" }}>
-                <VisibilitySensor>
-                  {({ isVisible }) => {
-                    const percentage = isVisible ? 60 : 0;
-                    return (
-                      <CircularProgressbarWithChildren
-                        value={percentage}
-                        styles={progressbarStyle}
-                      >
-                        <i data-tip="reactJS" className="fab fa-react"></i>
-                      </CircularProgressbarWithChildren>
-                    );
-                  }}
-                </VisibilitySensor>
-              </div>
+              <SkillItem value="60">
+                <i data-tip="reactJS" className="fab fa-react"></i>
+              </SkillItem>
             </li>
             <li className="list-inline-item">
-              <div style={{ width: "100px" }}>
-                <VisibilitySensor>
-                  {({ isVisible }) => {
-                    const percentage = isVisible ? 75 : 0;
-                    return (
-                      <CircularProgressbarWithChildren
-                        value={percentage}
-                        styles={progressbarStyle}
-                      >
-                        <i data-tip="nodeJS" className="fab fa-node-js"></i>
-                      </CircularProgressbarWithChildren>
-                    );
-                  }}
-                </VisibilitySensor>
-              </div>
+              <SkillItem value="75">
+                <i data-tip="nodeJS" className="fab fa-node-js"></i>
+              </SkillItem>
             </li>
             <li className="list-inline-item">
-              <div style={{ width: "100px" }}>
-                <VisibilitySensor>
-                  {({ isVisible }) => {
-                    const percentage = isVisible ? 60 : 0;
-                    return (
-                      <CircularProgressbarWithChildren
-                        value={percentage}
-                        styles={progressbarStyle}
-                      >
-                        <strong data-tip="Gatsby">Gatsby</strong>
-                      </CircularProgressbarWithChildren>
-                    );
-                  }}
-                </VisibilitySensor>
-              </div>
+              <SkillItem value="60">
+                <strong data-tip="Gatsby">Gatsby</strong>
+              </SkillItem>
             </li>
             <li className="list-inline-item">
-              <div style={{ width: "100px" }}>
-                <VisibilitySensor>
-                  {({ isVisible }) => {
-                    const percentage = isVisible ? 60 : 0;
-                    return (
-                      <CircularProgressbarWithChildren
-                        value={percentage}
-                        styles={progressbarStyle}
-                      >
-                        <i data-tip="vueJS" className="fab fa-vuejs"></i>
-                      </CircularProgressbarWithChildren>
-                    );
-                  }}
-                </VisibilitySensor>
-              </div>
+              <SkillItem value="60">
+                <i data-tip="vueJS" className="fab fa-vuejs"></i>
+              </SkillItem>
             </li>
             <li className="list-inline-item">
-              <div style={{ width: "100px" }}>
-                <VisibilitySensor>
-                  {({ isVisible }) => {
-                    const percentage = isVisible ? 90 : 0;
-                    return (
-                      <CircularProgressbarWithChildren
-                        value={percentage}
-                        styles={progressbarStyle}
-                      >
-                        <strong data-tip="Django">Django</strong>
-                      </CircularProgressbarWithChildren>
-                    );
-                  }}
-                </VisibilitySensor>
-              </div>
+              <SkillItem value="90">
+                <strong data-tip="Django">Django</strong>
+              </SkillItem>
             </li>
             <li className="list-inline-item">
-              <div style={{ width: "100px" }}>
-                <VisibilitySensor>
-                  {({ isVisible }) => {
-                    const percentage = isVisible ? 85 : 0;
-                    return (
-                      <CircularProgressbarWithChildren
-                        value={percentage}
-                        styles={progressbarStyle}
-                      >
-                        <strong data-tip="Flask">Flask</strong>
-                      </CircularProgressbarWithChildren>
-                    );
-                  }}
-                </VisibilitySensor>
-              </div>
+              <SkillItem value="85">
+                <strong data-tip="Flask">Flask</strong>
+              </SkillItem>
             </li>
           </ul>
 
@@ -224,55 +87,19 @@ export class Skills extends Component {
           </div>
           <ul className="list-inline dev-icons">
             <li className="list-inline-item">
-              <div style={{ width: "100px" }}>
-                <VisibilitySensor>
-                  {({ isVisible }) => {
-                    const percentage = isVisible ? 70 : 0;
-                    return (
-                      <CircularProgressbarWithChildren
-                        value={percentage}
-                        styles={progressbarStyle}
-                      >
-                        <strong data-tip="PostgreSQL" style={{ fontSize: "0.75rem" }}>PostgreSQL</strong>
-                      </CircularProgressbarWithChildren>
-                    );
-                  }}
-                </VisibilitySensor>
-              </div>
+              <SkillItem value="70">
+                <strong data-tip="PostgreSQL" style={{ fontSize: "0.75rem" }}>PostgreSQL</strong>
+              </SkillItem>
             </li>
             <li className="list-inline-item">
-              <div style={{ width: "100px" }}>
-                <VisibilitySensor>
-                  {({ isVisible }) => {
-                    const percentage = isVisible ? 85 : 0;
-                    return (
-                      <CircularProgressbarWithChildren
-                        value={percentage}
-                        styles={progressbarStyle}
-                      >
-                        <i data-tip="git" className="fab fa-git-alt"></i>
-                      </CircularProgressbarWithChildren>
-                    );
-                  }}
-                </VisibilitySensor>
-              </div>
+              <SkillItem value="85">
+                <i data-tip="git" className="fab fa-git-alt"></i>
+              </SkillItem>
             </li>
             <li className="list-inline-item">
-              <div style={{ width: "100px" }}>
-                <VisibilitySensor>
-                  {({ isVisible }) => {
-                    const percentage = isVisible ? 55 : 0;
-                    return (
-                      <CircularProgressbarWithChildren
-                        value={percentage}
-                        styles={progressbarStyle}
-                      >
-                        <strong data-tip="Android Studio" style={{ fontSize: "0.75rem" }}>Android<br />Studio</strong>
-                      </CircularProgressbarWithChildren>
-                    );
-                  }}
-                </VisibilitySensor>
-              </div>
+              <SkillItem value="55">
+                <strong data-tip="Android Studio" style={{ fontSize: "0.75rem" }}>Android<br />Studio</strong>
+              </SkillItem>
             </li>
           </ul>
 
@@ -281,123 +108,39 @@ export class Skills extends Component {
           </div>
           <ul className="list-inline dev-icons">
             <li className="list-inline-item">
-              <div style={{ width: "100px" }}>
-                <VisibilitySensor>
-                  {({ isVisible }) => {
-                    const percentage = isVisible ? 70 : 0;
-                    return (
-                      <CircularProgressbarWithChildren
-                        value={percentage}
-                        styles={progressbarStyle}
-                      >
-                        <strong data-tip="Google Cloud Plateform">GCP</strong>
-                      </CircularProgressbarWithChildren>
-                    );
-                  }}
-                </VisibilitySensor>
-              </div>
+              <SkillItem value="70">
+                <strong data-tip="Google Cloud Plateform">GCP</strong>
+              </SkillItem>
             </li>
             <li className="list-inline-item">
-              <div style={{ width: "100px" }}>
-                <VisibilitySensor>
-                  {({ isVisible }) => {
-                    const percentage = isVisible ? 60 : 0;
-                    return (
-                      <CircularProgressbarWithChildren
-                        value={percentage}
-                        styles={progressbarStyle}
-                      >
-                        <strong data-tip="Microsoft azure">Azure</strong>
-                      </CircularProgressbarWithChildren>
-                    );
-                  }}
-                </VisibilitySensor>
-              </div>
+              <SkillItem value="60">
+                <strong data-tip="Microsoft azure">Azure</strong>
+              </SkillItem>
             </li>
             <li className="list-inline-item">
-              <div style={{ width: "100px" }}>
-                <VisibilitySensor>
-                  {({ isVisible }) => {
-                    const percentage = isVisible ? 80 : 0;
-                    return (
-                      <CircularProgressbarWithChildren
-                        value={percentage}
-                        styles={progressbarStyle}
-                      >
-                        <strong data-tip="Travis CI">Travis CI</strong>
-                      </CircularProgressbarWithChildren>
-                    );
-                  }}
-                </VisibilitySensor>
-              </div>
+              <SkillItem value="80">
+                <strong data-tip="Travis CI">Travis CI</strong>
+              </SkillItem>
             </li>
             <li className="list-inline-item">
-              <div style={{ width: "100px" }}>
-                <VisibilitySensor>
-                  {({ isVisible }) => {
-                    const percentage = isVisible ? 50 : 0;
-                    return (
-                      <CircularProgressbarWithChildren
-                        value={percentage}
-                        styles={progressbarStyle}
-                      >
-                        <i data-tip="Github Action" class="fab fa-github"></i>
-                      </CircularProgressbarWithChildren>
-                    );
-                  }}
-                </VisibilitySensor>
-              </div>
+              <SkillItem value="50">
+                <i data-tip="Github Action" className="fab fa-github"></i>
+              </SkillItem>
             </li>
             <li className="list-inline-item">
-              <div style={{ width: "100px" }}>
-                <VisibilitySensor>
-                  {({ isVisible }) => {
-                    const percentage = isVisible ? 70 : 0;
-                    return (
-                      <CircularProgressbarWithChildren
-                        value={percentage}
-                        styles={progressbarStyle}
-                      >
-                        <strong data-tip="Heroku">Heroku</strong>
-                      </CircularProgressbarWithChildren>
-                    );
-                  }}
-                </VisibilitySensor>
-              </div>
+              <SkillItem value="70">
+                <strong data-tip="Heroku">Heroku</strong>
+              </SkillItem>
             </li>
             <li className="list-inline-item">
-              <div style={{ width: "100px" }}>
-                <VisibilitySensor>
-                  {({ isVisible }) => {
-                    const percentage = isVisible ? 60 : 0;
-                    return (
-                      <CircularProgressbarWithChildren
-                        value={percentage}
-                        styles={progressbarStyle}
-                      >
-                        <i data-tip="Jenkins" class="fab fa-jenkins"></i>
-                      </CircularProgressbarWithChildren>
-                    );
-                  }}
-                </VisibilitySensor>
-              </div>
+              <SkillItem value="60">
+                <i data-tip="Jenkins" className="fab fa-jenkins"></i>
+              </SkillItem>
             </li>
             <li className="list-inline-item">
-              <div style={{ width: "100px" }}>
-                <VisibilitySensor>
-                  {({ isVisible }) => {
-                    const percentage = isVisible ? 70 : 0;
-                    return (
-                      <CircularProgressbarWithChildren
-                        value={percentage}
-                        styles={progressbarStyle}
-                      >
-                        <strong data-tip="Ansible">Ansible</strong>
-                      </CircularProgressbarWithChildren>
-                    );
-                  }}
-                </VisibilitySensor>
-              </div>
+              <SkillItem value="70">
+                <strong data-tip="Ansible">Ansible</strong>
+              </SkillItem>
             </li>
           </ul>
         </div>
