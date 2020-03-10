@@ -275,6 +275,131 @@ export class Skills extends Component {
               </div>
             </li>
           </ul>
+
+          <div className="subheading mb-3">
+            Hosting and CI tools
+          </div>
+          <ul className="list-inline dev-icons">
+            <li className="list-inline-item">
+              <div style={{ width: "100px" }}>
+                <VisibilitySensor>
+                  {({ isVisible }) => {
+                    const percentage = isVisible ? 70 : 0;
+                    return (
+                      <CircularProgressbarWithChildren
+                        value={percentage}
+                        styles={progressbarStyle}
+                      >
+                        <strong data-tip="Google Cloud Plateform">GCP</strong>
+                      </CircularProgressbarWithChildren>
+                    );
+                  }}
+                </VisibilitySensor>
+              </div>
+            </li>
+            <li className="list-inline-item">
+              <div style={{ width: "100px" }}>
+                <VisibilitySensor>
+                  {({ isVisible }) => {
+                    const percentage = isVisible ? 60 : 0;
+                    return (
+                      <CircularProgressbarWithChildren
+                        value={percentage}
+                        styles={progressbarStyle}
+                      >
+                        <strong data-tip="Microsoft azure">Azure</strong>
+                      </CircularProgressbarWithChildren>
+                    );
+                  }}
+                </VisibilitySensor>
+              </div>
+            </li>
+            <li className="list-inline-item">
+              <div style={{ width: "100px" }}>
+                <VisibilitySensor>
+                  {({ isVisible }) => {
+                    const percentage = isVisible ? 80 : 0;
+                    return (
+                      <CircularProgressbarWithChildren
+                        value={percentage}
+                        styles={progressbarStyle}
+                      >
+                        <strong data-tip="Travis CI">Travis CI</strong>
+                      </CircularProgressbarWithChildren>
+                    );
+                  }}
+                </VisibilitySensor>
+              </div>
+            </li>
+            <li className="list-inline-item">
+              <div style={{ width: "100px" }}>
+                <VisibilitySensor>
+                  {({ isVisible }) => {
+                    const percentage = isVisible ? 50 : 0;
+                    return (
+                      <CircularProgressbarWithChildren
+                        value={percentage}
+                        styles={progressbarStyle}
+                      >
+                        <i data-tip="Github Action" class="fab fa-github"></i>
+                      </CircularProgressbarWithChildren>
+                    );
+                  }}
+                </VisibilitySensor>
+              </div>
+            </li>
+            <li className="list-inline-item">
+              <div style={{ width: "100px" }}>
+                <VisibilitySensor>
+                  {({ isVisible }) => {
+                    const percentage = isVisible ? 70 : 0;
+                    return (
+                      <CircularProgressbarWithChildren
+                        value={percentage}
+                        styles={progressbarStyle}
+                      >
+                        <strong data-tip="Heroku">Heroku</strong>
+                      </CircularProgressbarWithChildren>
+                    );
+                  }}
+                </VisibilitySensor>
+              </div>
+            </li>
+            <li className="list-inline-item">
+              <div style={{ width: "100px" }}>
+                <VisibilitySensor>
+                  {({ isVisible }) => {
+                    const percentage = isVisible ? 60 : 0;
+                    return (
+                      <CircularProgressbarWithChildren
+                        value={percentage}
+                        styles={progressbarStyle}
+                      >
+                        <i data-tip="Jenkins" class="fab fa-jenkins"></i>
+                      </CircularProgressbarWithChildren>
+                    );
+                  }}
+                </VisibilitySensor>
+              </div>
+            </li>
+            <li className="list-inline-item">
+              <div style={{ width: "100px" }}>
+                <VisibilitySensor>
+                  {({ isVisible }) => {
+                    const percentage = isVisible ? 70 : 0;
+                    return (
+                      <CircularProgressbarWithChildren
+                        value={percentage}
+                        styles={progressbarStyle}
+                      >
+                        <strong data-tip="Ansible">Ansible</strong>
+                      </CircularProgressbarWithChildren>
+                    );
+                  }}
+                </VisibilitySensor>
+              </div>
+            </li>
+          </ul>
         </div>
         <ReactTooltip />
       </section>
