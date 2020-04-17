@@ -37,7 +37,7 @@ export class Portfolio extends Component {
                     style={{ maxHeight: "50%", maxWidth: "70%", display: "block", marginLeft: "auto", marginRight: "auto" }}
                     alt="Georide Project Example"
                   ></img>
-                  <p>This is a project for sharing raod-trips for the users of the french GPS tracker Georide. I used <strong>django, PostgreSQL, georide API</strong> to create it.</p>
+                  <p>This is a project for sharing road-trips for the users of the french GPS tracker Georide. I used <strong>django, PostgreSQL, georide API</strong> to create it.</p>
                 </div>
               </div>
               <div>
