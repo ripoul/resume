@@ -29,7 +29,7 @@ export class Experience extends Component {
               </p>
             </div>
             <div className="resume-date text-md-right ml-auto">
-              <span className="text-primary">March 2019 - Present</span>
+              <span className="text-primary">March 2019 - August 2020</span>
             </div>
           </div>
 
