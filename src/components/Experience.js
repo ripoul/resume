@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import insynium from '../assets/img/experience/insynium.png';
 import sopra from '../assets/img/experience/sopra.png';
+import sharingcloud from '../assets/img/experience/sharingcloud.png'
 
 export class Experience extends Component {
   render() {
@@ -14,6 +15,26 @@ export class Experience extends Component {
           <h2 className="mb-5">Experience</h2>
 
           <div className="resume-item d-flex flex-column flex-md-row mb-5 align-items-center">
+            <div className="p-3">
+              <img
+                src={sharingcloud}
+                alt="sharing-cloud logo"
+                width="130px"
+              />
+            </div>
+            <div className="resume-content">
+              <h3 className="mb-0">Devlopper</h3>
+              <div className="subheading mb-3">SharingCloud</div>
+              <p>
+                Improvment of our solution : manage and optimize resource utilisation. (Django)
+              </p>
+            </div>
+            <div className="resume-date text-md-right ml-auto">
+              <span className="text-primary">September 2020 - Today</span>
+            </div>
+          </div>
+
+          <div className="resume-item d-flex flex-column flex-md-row mb-5 align-items-center justify-content-between">
             <div className="p-3">
               <img
                 src={sopra}
