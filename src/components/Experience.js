@@ -23,7 +23,7 @@ export class Experience extends Component {
               />
             </div>
             <div className="resume-content">
-              <h3 className="mb-0">Devlopper</h3>
+              <h3 className="mb-0">Developper</h3>
               <div className="subheading mb-3">SharingCloud</div>
               <p>
                 Improvment of our solution : manage and optimize resource utilisation. (Django)
